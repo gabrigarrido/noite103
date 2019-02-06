@@ -68,6 +68,9 @@ aside p{
 section{ 
     grid-area: section;
     background-color: purple;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     
 }
 section img{
