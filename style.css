@@ -1,0 +1,92 @@
+body{ margin: 0;
+
+
+
+}
+#main{
+    display: grid;
+    grid-template-areas: "header header header"
+                        "nav  nav  aside"
+                        "section section aside"
+                        "footer footer footer";
+
+    grid-auto-rows: 15vh 15vh 50vh  30vh;
+    grid-row-gap: 10pt;
+
+}
+header{
+    grid-area: header;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+header a{
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+
+}
+header a:nth-child(2){
+    color: palevioletred;
+
+}
+nav{
+    grid-area: nav;
+
+}
+header a:hover{
+    font-size: 20 pt;
+    font-weight: bold;
+    
+}
+nav{
+    grid-area: nav;
+    background-color: red;
+
+
+}
+aside{
+    grid-area: aside;
+    background-color: greenyellow;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+aside p{
+    width: 150px;
+    color:purple;
+    font-style: unset;
+    
+}
+section{ 
+    grid-area: section;
+    background-color: purple;
+    
+}
+section img{
+    width: 200pt;
+    
+
+}
+footer{
+grid-area: footer;
+background-color: grey;
+
+}
+footer img{
+
+    width: 40px;
+    height: auto;
+
+}
+footer div{
+    width: 190px;
+    display:
+}
